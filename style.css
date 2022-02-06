@@ -8,7 +8,7 @@
 
 html {
   height: 100vh;
-  overflow: hidden;
+  overflow: auto;
 }
 
 body {
@@ -24,9 +24,8 @@ body {
   display: flex;
   height: calc(100vh - 20px);
   justify-content: center;
-  padding: 2.5rem;
+  padding: 1.5rem 2.5rem;
   background-color: #2e2d2c;
-
 }
 
 main{
