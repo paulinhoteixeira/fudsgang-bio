@@ -8,10 +8,11 @@
 
 html {
   height: 100vh;
+  overflow: hidden;
 }
 
 body {
-  height: 100%;
+  height: 100vh;
   background-color: #070707;
   display: flex;
   align-items: center;
@@ -25,7 +26,18 @@ body {
   justify-content: center;
   padding: 2.5rem;
   background-color: #2e2d2c;
+
 }
+
+main{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;  
+  align-items: center;
+
+}
+
 
 #singleCover {
   max-width: 100%;
@@ -34,7 +46,7 @@ body {
 
 h1 {
   font-size: 1.5rem;
-  margin-top: 1.875rem;
+  margin-top: 1rem;
   text-align: center;
 }
 
@@ -46,9 +58,36 @@ h2 {
 
 #links {
   display: flex;
-  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  margin-top: 1.5rem;
+  flex-direction: column;  
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0 1rem;
 }
 
 .link {
   display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.icon img {
+  width: 45px;
+}
+
+a{
+  display: flex;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #30afc1;
 }
